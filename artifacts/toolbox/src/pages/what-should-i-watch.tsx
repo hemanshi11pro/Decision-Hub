@@ -371,9 +371,9 @@ export default function WhatShouldIWatch() {
                   <motion.div
                     key="spinning"
                     initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: [1, 0.5, 1], scale: [1, 1.1, 1] }}
+                    animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.8 }}
-                    transition={{ duration: 0.5, repeat: Infinity }}
+                    transition={{ duration: 0.25 }}
                     className="absolute"
                   >
                     <div className="w-16 h-16 rounded-full border-4 border-dashed border-blue-500 animate-spin" />

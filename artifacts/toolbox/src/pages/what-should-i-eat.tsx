@@ -359,12 +359,12 @@ export default function WhatShouldIEat() {
                   <motion.div
                     key="spinning"
                     initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.8 }}
-                    transition={{ duration: 0.6, repeat: Infinity, ease: "linear" }}
+                    transition={{ duration: 0.25 }}
                     className="absolute"
                   >
-                    <RotateCw className="w-16 h-16 text-primary/50" />
+                    <RotateCw className="w-16 h-16 text-primary/50 animate-spin" />
                   </motion.div>
                 ) : result ? (
                   <motion.div

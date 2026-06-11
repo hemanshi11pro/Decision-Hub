@@ -123,12 +123,12 @@ export default function RandomDecisionMaker() {
                     <motion.div
                       key="spinning"
                       initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1, rotate: [0, 10, -10, 10, 0] }}
+                      animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{ duration: 0.5, repeat: Infinity }}
+                      transition={{ duration: 0.25 }}
                       className="absolute"
                     >
-                      <Dices className="w-24 h-24 text-purple-500" />
+                      <Dices className="w-24 h-24 text-purple-500 animate-bounce" />
                     </motion.div>
                   ) : result ? (
                     <motion.div
