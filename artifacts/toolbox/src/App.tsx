@@ -23,6 +23,28 @@ import StudyPlanner from "@/pages/study-planner";
 import ExamCountdown from "@/pages/exam-countdown";
 import PercentageCalculator from "@/pages/percentage-calculator";
 
+import RandomRestaurantPicker from "@/pages/random-restaurant-picker";
+import CalorieEstimator from "@/pages/calorie-estimator";
+import RandomSongGenerator from "@/pages/random-song-generator";
+import DiceRoller from "@/pages/dice-roller";
+import MostLikelyTo from "@/pages/most-likely-to";
+import FriendshipQuiz from "@/pages/friendship-quiz";
+import WhoKnowsMeBetter from "@/pages/who-knows-me-better";
+import AttendanceCalculator from "@/pages/attendance-calculator";
+import CGPACalculator from "@/pages/cgpa-calculator";
+import MarksPredictor from "@/pages/marks-predictor";
+import RevisionScheduler from "@/pages/revision-scheduler";
+import ToDoListGenerator from "@/pages/todo-list-generator";
+import HabitTracker from "@/pages/habit-tracker";
+import TimeBlockingPlanner from "@/pages/time-blocking-planner";
+import MorningRoutinePlanner from "@/pages/morning-routine-planner";
+import WaterReminder from "@/pages/water-reminder";
+import CrushCompatibilityCalculator from "@/pages/crush-compatibility-calculator";
+import LovePercentageCalculator from "@/pages/love-percentage-calculator";
+import DateIdeaGenerator from "@/pages/date-idea-generator";
+import CoupleChallengeIdeas from "@/pages/couple-challenge-ideas";
+import UsernameGenerator from "@/pages/username-generator";
+
 const queryClient = new QueryClient();
 
 function Router() {
@@ -46,6 +68,28 @@ function Router() {
         <Route path="/study-planner" component={StudyPlanner} />
         <Route path="/exam-countdown" component={ExamCountdown} />
         <Route path="/percentage-calculator" component={PercentageCalculator} />
+
+        <Route path="/random-restaurant-picker" component={RandomRestaurantPicker} />
+        <Route path="/calorie-estimator" component={CalorieEstimator} />
+        <Route path="/random-song-generator" component={RandomSongGenerator} />
+        <Route path="/dice-roller" component={DiceRoller} />
+        <Route path="/most-likely-to" component={MostLikelyTo} />
+        <Route path="/friendship-quiz" component={FriendshipQuiz} />
+        <Route path="/who-knows-me-better" component={WhoKnowsMeBetter} />
+        <Route path="/attendance-calculator" component={AttendanceCalculator} />
+        <Route path="/cgpa-calculator" component={CGPACalculator} />
+        <Route path="/marks-predictor" component={MarksPredictor} />
+        <Route path="/revision-scheduler" component={RevisionScheduler} />
+        <Route path="/todo-list-generator" component={ToDoListGenerator} />
+        <Route path="/habit-tracker" component={HabitTracker} />
+        <Route path="/time-blocking-planner" component={TimeBlockingPlanner} />
+        <Route path="/morning-routine-planner" component={MorningRoutinePlanner} />
+        <Route path="/water-reminder" component={WaterReminder} />
+        <Route path="/crush-compatibility-calculator" component={CrushCompatibilityCalculator} />
+        <Route path="/love-percentage-calculator" component={LovePercentageCalculator} />
+        <Route path="/date-idea-generator" component={DateIdeaGenerator} />
+        <Route path="/couple-challenge-ideas" component={CoupleChallengeIdeas} />
+        <Route path="/username-generator" component={UsernameGenerator} />
         
         <Route component={NotFound} />
       </Switch>

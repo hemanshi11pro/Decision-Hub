@@ -8,7 +8,7 @@ import { TOOLS, CATEGORIES } from "@/lib/constants";
 import { SEO } from "@/components/SEO";
 import { motion } from "framer-motion";
 import * as Icons from "lucide-react";
-import { Button } from "react-day-picker";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
