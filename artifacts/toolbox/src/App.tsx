@@ -39,11 +39,18 @@ import HabitTracker from "@/pages/habit-tracker";
 import TimeBlockingPlanner from "@/pages/time-blocking-planner";
 import MorningRoutinePlanner from "@/pages/morning-routine-planner";
 import WaterReminder from "@/pages/water-reminder";
-import CrushCompatibilityCalculator from "@/pages/crush-compatibility-calculator";
 import LovePercentageCalculator from "@/pages/love-percentage-calculator";
 import DateIdeaGenerator from "@/pages/date-idea-generator";
 import CoupleChallengeIdeas from "@/pages/couple-challenge-ideas";
 import UsernameGenerator from "@/pages/username-generator";
+
+import TattooIdeaGenerator from "@/pages/tattoo-idea-generator";
+import HowRareAreYou from "@/pages/how-rare-are-you";
+import RedFlagDetector from "@/pages/red-flag-detector";
+import ExcuseGenerator from "@/pages/excuse-generator";
+import FutureSelfLetter from "@/pages/future-self-letter";
+import DreamInterpreter from "@/pages/dream-interpreter";
+import WouldYouSurvive from "@/pages/would-you-survive";
 
 const queryClient = new QueryClient();
 
@@ -57,13 +64,13 @@ function Router() {
         <Route path="/random-decision-maker" component={RandomDecisionMaker} />
         <Route path="/yes-or-no-generator" component={YesOrNoGenerator} />
         <Route path="/choice-picker" component={ChoicePicker} />
-        
+
         <Route path="/truth-or-dare" component={TruthOrDare} />
         <Route path="/never-have-i-ever" component={NeverHaveIEver} />
         <Route path="/challenge-generator" component={ChallengeGenerator} />
         <Route path="/would-you-rather" component={WouldYouRather} />
         <Route path="/gen-z-slang-generator" component={GenZSlangGenerator} />
-        
+
         <Route path="/gpa-calculator" component={GPACalculator} />
         <Route path="/study-planner" component={StudyPlanner} />
         <Route path="/exam-countdown" component={ExamCountdown} />
@@ -85,12 +92,19 @@ function Router() {
         <Route path="/time-blocking-planner" component={TimeBlockingPlanner} />
         <Route path="/morning-routine-planner" component={MorningRoutinePlanner} />
         <Route path="/water-reminder" component={WaterReminder} />
-        <Route path="/crush-compatibility-calculator" component={CrushCompatibilityCalculator} />
         <Route path="/love-percentage-calculator" component={LovePercentageCalculator} />
         <Route path="/date-idea-generator" component={DateIdeaGenerator} />
         <Route path="/couple-challenge-ideas" component={CoupleChallengeIdeas} />
         <Route path="/username-generator" component={UsernameGenerator} />
-        
+
+        <Route path="/tattoo-idea-generator" component={TattooIdeaGenerator} />
+        <Route path="/how-rare-are-you" component={HowRareAreYou} />
+        <Route path="/red-flag-detector" component={RedFlagDetector} />
+        <Route path="/excuse-generator" component={ExcuseGenerator} />
+        <Route path="/future-self-letter" component={FutureSelfLetter} />
+        <Route path="/dream-interpreter" component={DreamInterpreter} />
+        <Route path="/would-you-survive" component={WouldYouSurvive} />
+
         <Route component={NotFound} />
       </Switch>
     </Layout>
