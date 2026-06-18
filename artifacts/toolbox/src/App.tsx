@@ -1,3 +1,4 @@
+import Privacy from "@/Privacy";
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -76,7 +77,10 @@ function Router() {
         <Route path="/exam-countdown" component={ExamCountdown} />
         <Route path="/percentage-calculator" component={PercentageCalculator} />
 
-        <Route path="/random-restaurant-picker" component={RandomRestaurantPicker} />
+        <Route
+          path="/random-restaurant-picker"
+          component={RandomRestaurantPicker}
+        />
         <Route path="/calorie-estimator" component={CalorieEstimator} />
         <Route path="/random-song-generator" component={RandomSongGenerator} />
         <Route path="/dice-roller" component={DiceRoller} />
@@ -90,11 +94,20 @@ function Router() {
         <Route path="/todo-list-generator" component={ToDoListGenerator} />
         <Route path="/habit-tracker" component={HabitTracker} />
         <Route path="/time-blocking-planner" component={TimeBlockingPlanner} />
-        <Route path="/morning-routine-planner" component={MorningRoutinePlanner} />
+        <Route
+          path="/morning-routine-planner"
+          component={MorningRoutinePlanner}
+        />
         <Route path="/water-reminder" component={WaterReminder} />
-        <Route path="/love-percentage-calculator" component={LovePercentageCalculator} />
+        <Route
+          path="/love-percentage-calculator"
+          component={LovePercentageCalculator}
+        />
         <Route path="/date-idea-generator" component={DateIdeaGenerator} />
-        <Route path="/couple-challenge-ideas" component={CoupleChallengeIdeas} />
+        <Route
+          path="/couple-challenge-ideas"
+          component={CoupleChallengeIdeas}
+        />
         <Route path="/username-generator" component={UsernameGenerator} />
 
         <Route path="/tattoo-idea-generator" component={TattooIdeaGenerator} />
@@ -104,6 +117,7 @@ function Router() {
         <Route path="/future-self-letter" component={FutureSelfLetter} />
         <Route path="/dream-interpreter" component={DreamInterpreter} />
         <Route path="/would-you-survive" component={WouldYouSurvive} />
+        <Route path="/privacy" component={Privacy} />
 
         <Route component={NotFound} />
       </Switch>
