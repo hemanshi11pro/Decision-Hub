@@ -10,7 +10,7 @@ function Privacy() {
       }}
     >
       <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-        <h1>Privacy Policy</h1>
+        <h1>HELLO PRIVACY TEST</h1>
         <p>Last Updated: June 2026</p>
 
         <p>
@@ -21,8 +21,8 @@ function Privacy() {
         <h2>Information Collection</h2>
         <p>
           Our website offers free online tools. We do not require account
-          registration, and we do not intentionally collect personal
-          information such as names, phone numbers, or email addresses.
+          registration, and we do not intentionally collect personal information
+          such as names, phone numbers, or email addresses.
         </p>
 
         <h2>Tool Usage</h2>
